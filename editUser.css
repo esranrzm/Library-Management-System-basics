@@ -1,0 +1,53 @@
+.navbar{
+  opacity: 85%;
+}
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #800080;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 25px 50px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.navbar li a:hover {
+  background-color: #6A5ACD;
+}
+
+body{
+	font-size: 20px;
+}
+
+.addUser, .updateUser, .removeUser{
+	margin-left: 20px;
+	padding: 20px;
+	height: auto;
+	display: inline-block;
+	width: 300px;
+}
+.addUser{
+	background-color: #718eab;
+}
+.updateUser{
+	background-color: #637e99;
+}
+.removeUser{
+	background-color: #718eab;
+}
+
+.editUser_body{
+	
+
+}

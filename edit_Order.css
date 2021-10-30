@@ -1,0 +1,53 @@
+.navbar{
+  opacity: 85%;
+}
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #800080;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 25px 50px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.navbar li a:hover {
+  background-color: #6A5ACD;
+}
+
+body{
+	font-size: 20px;
+}
+
+.addOrder, .updateOrder, .removeOrder{
+	margin-left:20px;
+	padding: 20px;
+	height: auto;
+	display: inline-block;
+	width: 300px;
+}
+.addOrder{
+	background-color: #637e99;
+}
+.updateOrder{
+	background-color: #637e99;
+}
+.removeOrder{
+	background-color: #637e99;
+}
+
+.editOrder_body{
+	
+
+}
